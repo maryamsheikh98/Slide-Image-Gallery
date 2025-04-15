@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Image Sliders Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1 style="text-align:center;">My Multi-Slider Image Gallery</h1>
+    <hr>
+
+    <!-- Slider 1 -->
+    <h2>Flowers</h2>
+    <div class="slider-container">
+        <div class="slider" id="slider1">
+            <img src="Flowers/flowers (1).jpg" onclick="openLightbox(this)">
+            <img src="Flowers/flowers (2).jpg" onclick="openLightbox(this)">
+            <img src="Flowers/flowers (3).jpg" onclick="openLightbox(this)">
+            <img src="Flowers/flowers (4).jpg" onclick="openLightbox(this)">
+            <img src="Flowers/flowers (5).jpg" onclick="openLightbox(this)">
+            <img src="Flowers/flowers (6).jpg" onclick="openLightbox(this)">
+            <img src="Flowers/flowers (7).jpg" onclick="openLightbox(this)">
+            <img src="Flowers/flowers (8).jpg" onclick="openLightbox(this)">
+            <img src="Flowers/flowers (9).jpg" onclick="openLightbox(this)">
+            <img src="Flowers/flowers (10).jpg" onclick="openLightbox(this)">
+            <img src="Flowers/flowers (11).jpg" onclick="openLightbox(this)">
+            <img src="Flowers/flowers (12).jpg" onclick="openLightbox(this)">
+            <img src="Flowers/flowers (13).jpg" onclick="openLightbox(this)">
+            <img src="Flowers/flowers (14).jpg" onclick="openLightbox(this)">
+            <img src="Flowers/flowers (15).jpg" onclick="openLightbox(this)">
+        </div>
+    </div>
+    <div class="nav-btns">
+        <button onclick="scrollSlider('slider1', -1)"> Prev</button>
+        <button onclick="scrollSlider('slider1', 1)">Next </button>
+    </div>
+
+    <!-- Slider 2 -->
+    <h2>Nature</h2>
+    <div class="slider-container">
+        <div class="slider" id="slider2">
+            <img src="scenaryImage/scenery-img (1).jpg" onclick="openLightbox(this)">
+            <img src="scenaryImage/scenery-img (2).jpg" onclick="openLightbox(this)">
+            <img src="scenaryImage/scenery-img (3).jpg" onclick="openLightbox(this)">
+            <img src="scenaryImage/scenery-img (5).jpg" onclick="openLightbox(this)">
+            <img src="scenaryImage/scenery-img (6).jpg" onclick="openLightbox(this)">
+            <img src="scenaryImage/scenery-img (7).jpg" onclick="openLightbox(this)">
+            <img src="scenaryImage/scenery-img (8).jpg" onclick="openLightbox(this)">
+            <img src="scenaryImage/scenery-img (9).jpg" onclick="openLightbox(this)">
+            <img src="scenaryImage/scenery-img (10).jpg" onclick="openLightbox(this)">
+            <img src="scenaryImage/scenery-img (11).jpg" onclick="openLightbox(this)">
+            <img src="scenaryImage/scenery-img (12).jpg" onclick="openLightbox(this)">
+            <img src="scenaryImage/scenery-img (13).jpg" onclick="openLightbox(this)">
+            <img src="scenaryImage/scenery-img (14).jpg" onclick="openLightbox(this)">
+            <img src="scenaryImage/scenery-img (15).jpg" onclick="openLightbox(this)">
+            <img src="scenaryImage/scenery-img (16).jpg" onclick="openLightbox(this)">
+            <img src="scenaryImage/scenery-img (17).jpg" onclick="openLightbox(this)">
+        </div>
+    </div>
+    <div class="nav-btns">
+        <button onclick="scrollSlider('slider2', -1)"> Prev</button>
+        <button onclick="scrollSlider('slider2', 1)">Next </button>
+    </div>
+
+    <!-- Slider 3 -->
+        <h2>Cities</h2>
+    <div class="slider-container">
+        <div class="slider" id="slider3">
+            <img src="Cities/cities (1).jpg" onclick="openLightbox(this)">
+            <img src="Cities/cities (2).jpg" onclick="openLightbox(this)">
+            <img src="Cities/cities (3).jpg" onclick="openLightbox(this)">
+            <img src="Cities/cities (4).jpg" onclick="openLightbox(this)">
+            <img src="Cities/cities (5).jpg" onclick="openLightbox(this)">
+            <img src="Cities/cities (6).jpg" onclick="openLightbox(this)">
+            <img src="Cities/cities (7).jpg" onclick="openLightbox(this)">
+            <img src="Cities/cities (8).jpg" onclick="openLightbox(this)">
+            <img src="Cities/cities (9).jpg" onclick="openLightbox(this)">
+            <img src="Cities/cities (10).jpg" onclick="openLightbox(this)">
+            <img src="Cities/cities (11).jpg" onclick="openLightbox(this)">
+            <img src="Cities/cities (12).jpg" onclick="openLightbox(this)">
+            <img src="Cities/cities (13).jpg" onclick="openLightbox(this)">
+            <img src="Cities/cities (14).jpg" onclick="openLightbox(this)">
+            <img src="Cities/cities (15).jpg" onclick="openLightbox(this)">
+        </div>
+    </div>
+    <div class="nav-btns">
+        <button onclick="scrollSlider('slider3', -1)">Prev</button>
+        <button onclick="scrollSlider('slider3', 1)">Next </button>
+    </div>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <button class="close-btn" onclick="closeLightbox()">✖</button>
+        <img id="lightbox-img" src="" alt="Lightbox Image">
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
